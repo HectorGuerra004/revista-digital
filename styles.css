@@ -32,6 +32,7 @@ body {
 
 .page {
     position: absolute;
+    border-radius: 20px;
     width: 50%;
     height: 100%;
     top: 0;
@@ -55,6 +56,7 @@ body {
     border-radius: 0 10px 10px 0;
     overflow: hidden;
     backface-visibility: hidden;
+    border-radius: 20px;
 }
 
 .page-back {
@@ -138,7 +140,7 @@ button {
     padding: 12px 25px;
     margin: 0 10px;
     font-size: 16px;
-    background: #e74c3c;
+    background: #4439dd;
     border: none;
     color: white;
     cursor: pointer;
@@ -149,7 +151,7 @@ button {
 }
 
 button:hover {
-    background: #c0392b;
+    background: #2d2bc0;
     transform: scale(1.05);
 }
 
